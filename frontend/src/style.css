@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #efe9e9;
+}
+
+.app {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+  font-family: system-ui, sans-serif;
+}
+
+.app-header {
+  margin-bottom: 1.5rem;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.app-products h2,
+.app-cart h2 {
+  margin: 0 0 0.75rem 0;
+  font-size: 1.2rem;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(12.5rem, 1fr));
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.product-card {
+  border: 0.06rem solid #e0e0e0;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background: #f5f5f5;
+}
+
+.product-card-name {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.product-card-price {
+  margin: 0;
+  font-weight: 600;
+  color: #2e7d32;
+}
+
+.product-card-category {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.product-card-btn {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 0.38rem;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.product-card-btn:hover {
+  background: #1565c0;
+}
+
+.app-cart {
+  padding: 1rem;
+  background: #f5f5f5;
+  border-radius: 0.5rem;
+  border: 0.06rem solid #e0e0e0;
+}
+
+.cart-stats {
+  margin: 0.5rem 0;
+}
+
+.cart-list {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 0.06rem solid #ddd;
+}
+
+.cart-list h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
+}
+
+.cart-list-items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cart-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.5rem 0;
+  border-bottom: 0.06rem solid #eee;
+}
+
+.cart-list-label {
+  flex: 1;
+}
+
+.cart-item-price {
+  font-weight: 600;
+  color: #2e7d32;
+  margin-left: 1rem;
+  min-width: 5rem;
+  text-align: right;
+  display: inline-block;
+}
+
+.cart-list-actions {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.btn {
+  padding: 0.22rem 0.38rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.btn-small {
+  padding: 0.16rem 0.37rem;
+  font-size: 0.75rem;
+}
+
+.btn-danger {
+  background: #c62828;
+  color: #fff;
+  margin-left: 0.5rem;
+}
+
+.btn-danger:hover {
+  background: #b71c1c;
+}
+
+.btn:not(.btn-danger) {
+  background: #1976d2;
+  color: #fff;
+}
+
+.btn:not(.btn-danger):hover {
+  background: #1565c0;
+}

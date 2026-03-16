@@ -1,0 +1,37 @@
+{
+  "name": "vue-ecommerce-options-api-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Simulação de carrinho de compras de e-commerce utilizando TypeScript, Vue.js & Options API e Programação Orientada a Objetos.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "typescript",
+    "oop",
+    "poo",
+    "ecommerce",
+    "vue",
+    "vue3",
+    "options-api",
+    "frontend",
+    "vite",
+    "cart",
+    "nodejs"
+  ],
+  "author": "Isaias Oliveira",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "typescript": "~5.6.3",
+    "vite": "^6.0.3",
+    "vue-tsc": "^2.1.10"
+  }
+}
